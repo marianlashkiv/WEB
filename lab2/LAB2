@@ -1,0 +1,92 @@
+<html>
+   <head>
+   	<meta charset= "UTF-8">
+      <title>JavaScript</title>
+   </head>
+   <body>
+   
+   <script>//1
+   function pow(x){
+	var results= x*x*x;
+return results;}
+x=prompt("Введіть значення x :");
+alert(pow(x));
+</script>
+   <script>//2 
+   function Fuck(a,b,c){
+return (a+b)/c;}
+a=prompt("Введіть значення a :");
+b=prompt("Введіть значення b :");
+c=prompt("Введіть значення c :");
+alert(Fuck(+a,+b,+c));</script>
+   <script > //3
+   function days( x ){
+	var number=x;
+    if( number == 1 ) 
+        alert('понеділок') ;
+    else if(number ==2 ) 
+         alert('Вівторок'); 
+   else if(number ==3 ) 
+         alert('Середа'); 
+	 else if(number ==4 ) 
+         alert('Четвер'); 
+	 else if(number ==5 ) 
+         alert("П'янтиця"); 
+	 else if(number ==6 ) 
+         alert('Субота'); 
+	 else if(number ==7 ) 
+         alert('Неділя'); 
+    else 
+        alert('Неправильне значення'); 
+	return x;
+}
+x=prompt("Введіть номер тижня:");
+console.log(days(x));</script>
+   <script ">var days;//4
+x=prompt("Введіть номер дня тижня:");
+    if( x == 1 )
+days= function(){		
+alert('понеділок');} 
+    else if(x ==2 ) 
+		days= function(){
+		alert('Вівторок'); }
+   else if(x ==3 ) 
+	   days= function(){
+	   alert('Середа'); }
+	 else if(x ==4 )
+      days= function(){		 
+      alert('Четвер');} 
+	 else if(x ==5 )
+     days= function(){		 
+       alert("П'янтиця"); }
+	 else if(x ==6 )
+		 days= function(){
+         alert('Субота');} 
+	 else if(x ==7 )
+		 days= function(){
+	alert('Неділя');}
+    else
+		days= function(){
+        alert('Неправильне значення'); 
+		}
+days(); </script>
+   <script> //5.1
+   function factorial( n) {
+    if (n <= 1)
+      return 1;
+    return n * factorial(n - 1);
+  }
+  n=prompt("Введіть число:");
+  alert(factorial(n));
+   </script>
+   <script> //5.2
+   function factorial(n){
+var answer=1;
+	  for( var i=2;i<=n;i++)
+	 answer=answer* (i);
+	  return answer;
+  }
+  n=prompt("Введіть число:");
+  alert(factorial(n));</script>
+   </body>
+</html>
