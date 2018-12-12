@@ -1,0 +1,68 @@
+
+td{
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+table{
+    margin: auto;
+}
+.searchWrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.searchWrap{
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+#myInput{
+    height: 18px;
+    width: 305px;
+    border-radius: 5px;
+    border:2px solid gainsboro;
+    padding: 5px;
+}
+tr:hover,tr:hover .newRowInput{
+    background: #eeeeee;
+    cursor: pointer;
+}
+.addBtn{
+    padding: 6px;
+    width: 75px;
+    background: #d9d9d9;
+    color: #555;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+
+.addBtn:hover,.addBtn:hover i{
+    background-color: #bbb;
+    color: white;
+}
+.fa-plus{
+    font-size: 15px;
+    color: #555;
+    padding-left: 10px;
+    transition: 0.3s;
+}
+
+.newRowInput{
+    border: none;
+    outline: 0;
+    width: inherit;
+    height: inherit;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    text-align: center;
+    overflow:hidden;
+    font-family: inherit;
+    font-size: inherit;
+}
+#table{
+    margin-bottom: 100px;
+}
